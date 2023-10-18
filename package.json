@@ -10,9 +10,25 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@element-plus/nuxt": "^1.0.6",
     "@nuxt/devtools": "latest",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@prettier/plugin-pug": "^3.0.0",
+    "element-plus": "^2.4.1",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-vue-pug": "^0.6.0",
     "nuxt": "^3.7.4",
+    "nuxt-lodash": "^2.5.0",
+    "prettier": "^3.0.3",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "sass": "^1.69.4"
   }
 }

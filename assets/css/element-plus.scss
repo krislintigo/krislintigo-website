@@ -1,0 +1,9 @@
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $sm: 500px,
+  $md: 1050px,
+  $lg: 1250px,
+  $link: (
+    'font-weight': 400,
+  ),
+);
+
