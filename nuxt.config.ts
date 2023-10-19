@@ -22,7 +22,6 @@ export default defineNuxtConfig({
     head: {
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' }],
       title: 'PlaybackArt',
-      htmlAttrs: { class: 'dark' },
     },
   },
   elementPlus: {

@@ -1,5 +1,5 @@
 <template lang="pug">
-el-main.m-auto(class='max-w-[1550px]')
+el-main.m-auto.select-none(class='max-w-[1550px]')
   slot
 </template>
 
