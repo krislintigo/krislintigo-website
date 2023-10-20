@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' }],
-      title: 'PlaybackArt',
+      title: 'Lintigo',
     },
   },
   elementPlus: {

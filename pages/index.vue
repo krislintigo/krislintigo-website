@@ -3,14 +3,19 @@ el-container
   el-row.flex-col.gap-y-5(justify='center')
     el-row.w-full.gap-x-5(justify='space-evenly')
       el-col(:span='15')
-        el-card.w-full(shadow='never', class='!h-[600px]', body-class='!p-0 h-full')
-          el-carousel.h-full(height='100%', interval='10000')
-            el-carousel-item
-              el-image.w-full.h-full(src='/images/test/1.jpg', fit='contain')
-            el-carousel-item
-              el-image.w-full.h-full(src='/images/test/2.jpg', fit='contain')
-            el-carousel-item
-              el-image.w-full.h-full(src='/images/test/3.jpg', fit='contain')
+        el-card(shadow='never', body-class='!p-2')
+          el-image(
+            src='/images/IMG_1178-min.jpg',
+            style='clip-path: inset(1px 1px 1px 1px)'
+          )
+        //el-card.w-full(shadow='never', class='!h-[600px]', body-class='!p-0 h-full')
+        //  el-carousel.h-full(height='100%', :interval='10000')
+        //    el-carousel-item
+        //      el-image.w-full.h-full(src='/images/test/1.jpg', fit='contain')
+        //    el-carousel-item
+        //      el-image.w-full.h-full(src='/images/test/2.jpg', fit='contain')
+        //    el-carousel-item
+        //      el-image.w-full.h-full(src='/images/test/3.jpg', fit='contain')
       el-col(:span='8')
         el-card.w-full.h-48(shadow='never')
           .select-text
@@ -29,14 +34,17 @@ el-container
           el-col(:span='7')
             el-card.w-full.h-60(shadow='never')
           el-col(:span='16')
-            el-card.w-full.h-60.bg-red-200(shadow='never', class='!bg-[#409eff]')
-              h3.text-4xl.text-white PlaybackArt
-              h3.mt-4.text-white Application for managing your films, series, games, books and other stuff
+            el-card.w-full.h-72.bg-red-200(shadow='never', class='!bg-[#409eff]')
+              el-image.w-64(src='/images/WhiteonBluArt.svg')
+              h3.mt-5.text-white.text-lg Application for managing your films, series, games, books and other stuff. Monitor ratings and time using convenient informative charts and keep track of your favorites!
               el-link.mt-6(
-                class='!text-xl !text-white',
+                class='!text-2xl !text-white',
                 href='https://playbackart.lintigo.app',
                 target='_blank'
-              ) Let's try it
+              )
+                el-icon.mr-1(:size='25', color='white')
+                  ElIconLink
+                span Let's try it
         el-row.w-full.mt-5
           el-col(:span='24')
             el-card.w-full.h-80(shadow='never')
