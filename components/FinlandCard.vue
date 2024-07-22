@@ -8,4 +8,10 @@ el-card.relative.h-80(shadow='never', body-class='!p-0')
       span.select-text.ml-1 Onnea minulle, jotta näkisin tämän kauniin maan!
 </template>
 
+<script setup lang="ts">
+const a = 'hello'
+
+const b = 'world'
+</script>
+
 <style scoped lang="scss"></style>

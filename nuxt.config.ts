@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     '@element-plus/nuxt',
     '@nuxtjs/tailwindcss',
     'nuxt-lodash',
-    '@nuxtjs/eslint-module',
+    '@nuxt/eslint',
   ],
   app: {
     layoutTransition: { name: 'layout', mode: 'out-in' },
